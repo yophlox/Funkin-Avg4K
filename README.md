@@ -1,5 +1,8 @@
-# Vs-Tricky-Avg4k
-an unfinished build of Vs. Tricky ported to Average4K's (old) engine.
+# Funkin-Avg4k
+
+Friday Night Funkin' ported to Average4K's (old) engine.
+
+All charts by [AmaliKada](https://www.youtube.com/@Amalikada)
 
 ## Code Quality
 

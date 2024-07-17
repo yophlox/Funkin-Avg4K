@@ -321,6 +321,7 @@ void Gameplay::create() {
 
 	camHud = new AvgGroup(0, 0, Game::gameWidth, Game::gameHeight);
 
+	/*
 	if (SongSelect::currentChart->meta.folder.ends_with("ImprobableOutset"))
 		stage = new Stage("assets/stages/nevada");
 	else if (SongSelect::currentChart->meta.folder.ends_with("Madness"))
@@ -329,8 +330,11 @@ void Gameplay::create() {
 		stage = new Stage("assets/stages/hellNevada");
 	else if (SongSelect::currentChart->meta.folder.ends_with("Expurgation"))
 		stage = new Stage("assets/stages/exNevada");
-	else
+	*/
+	if (SongSelect::currentChart->meta.folder.ends_with("Tutorial")) // swaggerz
 		stage = new Stage("assets/stages/stage");
+	else
+		stage = new Stage("assets/stages/stage"); // Fallback until I add the other backgrounds
 
 	for (AvgGroup* group : stage->returnUsedLayers())
 	{

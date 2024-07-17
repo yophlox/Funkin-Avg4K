@@ -55,7 +55,7 @@ void callback()
 	font.g = 0;
 	font.b = 142;
 
-	Tweening::AvgButtonTweenable* but = new Tweening::AvgButtonTweenable(250, 500, 250, 45, "solo", 18, "arial", (clickCallback)changeMenu);
+	Tweening::AvgButtonTweenable* but = new Tweening::AvgButtonTweenable(250, 500, 250, 45, "solo", 18, "vcr", (clickCallback)changeMenu);
 	but->create();
 	but->text->border = false;
 	but->fontColor = font;
@@ -66,7 +66,7 @@ void callback()
 	instance->add(but);
 	instance->buttons.push_back(but);
 	
-	Tweening::AvgButtonTweenable* but3 = new Tweening::AvgButtonTweenable(832, 500, 250, 45, "settings", 18, "arial", (clickCallback)changeMenu);
+	Tweening::AvgButtonTweenable* but3 = new Tweening::AvgButtonTweenable(832, 500, 250, 45, "settings", 18, "vcr", (clickCallback)changeMenu);
 	but3->create();
 	but3->text->border = false;
 	but3->fontColor = font;

@@ -24,6 +24,7 @@
     <ProjectGuid>{70d63f3e-d17c-4dcd-925d-1493526457c8}</ProjectGuid>
     <RootNamespace>Average4k</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>FunkinAvg4K</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
