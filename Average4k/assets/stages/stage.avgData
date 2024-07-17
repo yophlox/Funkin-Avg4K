@@ -1,0 +1,51 @@
+# layer 6 is used for characters
+# layer 7+ is above characters
+# max layer is 12
+
+### sprites
+
+sprites[background]: assets/graphical/fnfBase/stageback.png
+spritesLayer[background]: 0
+spritesPos[background]: -600,-200
+spritesScale[background]: 0.9
+
+# this one too, it sets the scrollFactor just like in flixel
+
+sprites[background2]: assets/graphical/fnfBase/stagefront.png
+spritesLayer[background2]: 0
+spritesPos[background2]: -650,600
+spritesScale[background2]: 0.9
+
+sprites[background3]: assets/graphical/fnfBase/stagecurtains.png
+spritesLayer[background3]: 1
+spritesPos[background3]: -500,-300
+spritesScale[background3]: 1.3
+
+### characters
+
+p1: boyfriend
+p1Pos: 670,350
+# optional, this is for the times where bf's camera doesn't actually fit in the world or something
+p1ViewOffset: -150,-130
+# scale is always optional, but for characters it's recommended
+p1Scale: 1
+p2: boyfriend
+p2Pos: -10000,100
+p2Scale: 1
+# same for this one
+p2ViewOffset: 240,120
+
+# gf is the exact same
+gf: girlfriend
+gfPos: 300,100
+gfScale: 0.95
+
+### viewpoint stuff
+# basically the camera
+
+viewPointZoom: 0.95
+viewPointPos: 0,-35
+
+camTintR: 170
+camTintG: 0
+camTintB: 0
